@@ -8,7 +8,7 @@ if(num / 100 < 1)
 {
     Console.WriteLine($"В числе {num} меньше трех цифр");
 }
-if(num / 100 >= 1)
+else
 {
     Console.WriteLine($"Третьей цифрой числа {num} является {num / 100 % 10}");
 }
